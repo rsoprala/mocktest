@@ -1,0 +1,22 @@
+{
+  "request": 
+  {
+    "method": "POST",
+    "url": "/api/vaishali"
+  },
+
+  "response": 
+  {
+    "status": 200,
+    "bodyFileName": "wiremock-response-jsonpath.json",
+    "headers": 
+    {
+      "Content-Type": "application/json"
+    },
+
+    "transformers": 
+    [
+      "response-template"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "name": "{{ jsonPath request.body '$.name' }}"
+}
